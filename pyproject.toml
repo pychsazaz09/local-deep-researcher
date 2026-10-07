@@ -63,5 +63,6 @@ convention = "google"
 
 [dependency-groups]
 dev = [
+    "langgraph-cli[inmem]>=0.4.32",
     "ruff>=0.12.7",
 ]
